@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html1>
+
+<style>
+	body {
+			background-color: red;
+	}
+	ul {
+    			list-style-type: none;
+    			margin: 0;
+    			padding: 0;
+			overflow: hidden;
+			background-color: black;
+	}
+	li {
+			float: left;
+	}
+	li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 8px 18px 8px 18px;
+			text-decoration: none;
+	}
+	li a:hover:not(.active) {    background-color: blue;
+	}
+	.active {
+		background-color: red;
+	}
+	div.gallery {
+   		margin: 20px;
+		border: 1px solid grey;
+    		float: left;
+    		width: 200px;
+		height: 200px;
+	}
+	div.gallery:hover {
+    		border: 1px solid black;
+	}
+	div.gallery img {
+		height: 200px;
+		width: 200px;
+	}
+	div.desc {
+   		padding: 15px;
+		height: auto;
+   		text-align: center;
+	}
+</style>
+
+<body>
+<link rel = "stylesheet"
+	type = "text/css"
+	href = "index.css"/>
+
+	<header align=center>
+		<h1>Allstar Sports Equipment and Fitness</h1>
+		<h3>Sports equipment and fitness gear for athletes and beginners alike. If we don't have it, nobody does!<h3>
+		<img src="fireworks21.jpg" width=700px height=200px border=top-left-radius>
+		<figcaption>You'll be blown away by our quality!</figcaption>
+	</header>
+	
+	<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Team Sports</a></li>
+<li><a href="#">Individual Sports</a></li>
+<li><a href="#">Fitness Equipment</a></li>
+<li><a href="#">Sales!</a></li>
+	</ul>
+
+	<article>
+		<h2>Nike Yellow Soccer Ball</h2>
+		<h3>$25</h3>
+		<p>Also available in black, blue, purple, green, red, and pink - $30</p>
+		<p>Gold, silver, and multicolor Nike Soccer Balls - $35</p>
+<div class="gallery">
+  <a target="_self" href="nikeyellowsoccerball.jpg">
+    <img src="nikeyellowsoccerball.jpg" alt="Bright Yellow Nike Soccer Ball">
+  </a>
+  <div class="desc">$25</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikeblacksoccerball.jpg">
+    <img src="nikeblacksoccerball.jpg" alt="Black Nike Soccer Ball">
+  </a>
+  <div class="desc">$30</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikebluesoccerball.jpg">
+    <img src="nikebluesoccerball.jpg" alt="Blue Nike Soccer Ball">
+  </a>
+  <div class="desc">$30</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikepurplesoccerball.jpg">
+    <img src="nikepurplesoccerball.jpg" alt="Purple Nike Soccer Ball">
+  </a>
+  <div class="desc">$30</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikegreensoccerball.jpg">
+    <img src="nikegreensoccerball.jpg" alt="Green Nike Soccer Ball">
+  </a>
+  <div class="desc">$30</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikeredsoccerball.jpg">
+    <img src="nikeredsoccerball.jpg" alt="Red Nike Soccer Ball">
+  </a>
+  <div class="desc">$30</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikepinksoccerball.jpg">
+    <img src="nikepinksoccerball.jpg" alt="Pink Nike Soccer Ball">
+  </a>
+  <div class="desc">$30</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikegoldsoccerball.jpg">
+    <img src="nikegoldsoccerball.jpg" alt="Gold Nike Soccer Ball">
+  </a>
+  <div class="desc">$35</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikesilversoccerball.jpg">
+    <img src="nikesilversoccerball.jpg" alt="Silver Nike Soccer Ball">
+  </a>
+  <div class="desc">$35</div>
+</div>
+<div class="gallery">
+  <a target="_self" href="nikemulticolorsoccerball.jpg">
+    <img src="nikemulticolorsoccerball.jpg" alt="Multicolor Nike Soccer Ball">
+  </a>
+  <div class="desc">$35</div>
+</div>
+	</article>
+
+</body>
